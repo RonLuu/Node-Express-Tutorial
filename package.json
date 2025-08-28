@@ -1,5 +1,27 @@
 {
+  "name": "express-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/RonLuu/Node-Express-Tutorial#readme",
+  "bugs": {
+    "url": "https://github.com/RonLuu/Node-Express-Tutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonLuu/Node-Express-Tutorial.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "1-intro.js",
+  "scripts": {
+    "start" : "nodemon app.js"
+  },
+  "dependencies": {
+    "undici-types": "^7.10.0"
+  },
   "devDependencies": {
     "@types/node": "^24.3.0"
-  }
+  },
+  "keywords": []
 }
