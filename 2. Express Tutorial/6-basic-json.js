@@ -1,6 +1,6 @@
 const expire = require("express")
 const app = expire()
-const products = require("./data")
+const {products} = require("./data")
 app.get("/", (req, res) =>
     {
         res.json(products)
